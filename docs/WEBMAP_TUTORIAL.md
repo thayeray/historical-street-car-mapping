@@ -28,6 +28,8 @@ The tutorial is loosely based on [this tutorial from MDN](https://developer.mozi
 
 #### Initialize the heroku app with your repo
 1. `git clone` the repo you created above to your local machine
+    On your repo page click on the green "Clone or Download" button, and copy the URL.
+    The command in your terminal or command prompt should be:  git clone <URL> 
 1. `cd` into the repo directory 
 1. Add the `heroku` remote to your repo: `heroku git:remote -a <app-name>`
     - You will use the name of your heroku app here, not the github repo. 
