@@ -29,6 +29,7 @@ The tutorial is loosely based on [this tutorial from MDN](https://developer.mozi
 #### Initialize the heroku app with your repo
 1. `git clone` the repo you created above to your local machine
 1. `cd` into the repo directory 
+    This is likely to be a folder in your user home directory.
 1. Add the `heroku` remote to your repo: `heroku git:remote -a <app-name>`
     - You will use the name of your heroku app here, not the github repo. 
     - This will create a remote destination in your github repo for your code to be deployed to heroku.
